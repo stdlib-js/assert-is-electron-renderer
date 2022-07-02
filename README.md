@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.IS_ELECTRON_RENDERER;
+})();
 })();
 </script>
 ```
@@ -84,10 +86,12 @@ var bool = IS_ELECTRON_RENDERER;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron-renderer@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( IS_ELECTRON_RENDERER );
 // => <boolean>
 
+})();
 })();
 </script>
 </body>
@@ -186,9 +190,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-electron]: https://github.com/stdlib-js/assert-is-electron/tree/umd
+[@stdlib/assert/is-electron]: https://github.com/stdlib-js/assert-is-electron/tree/umd/tree/umd
 
-[@stdlib/assert/is-electron-main]: https://github.com/stdlib-js/assert-is-electron-main/tree/umd
+[@stdlib/assert/is-electron-main]: https://github.com/stdlib-js/assert-is-electron-main/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
