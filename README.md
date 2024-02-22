@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_ELECTRON_RENDERER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron-renderer@esm/index.mjs';
+import IS_ELECTRON_RENDERER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron-renderer@v0.2.1-esm/index.mjs';
 ```
 
 #### IS_ELECTRON_RENDERER
@@ -70,7 +70,7 @@ var bool = IS_ELECTRON_RENDERER;
 <body>
 <script type="module">
 
-import IS_ELECTRON_RENDERER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron-renderer@esm/index.mjs';
+import IS_ELECTRON_RENDERER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron-renderer@v0.2.1-esm/index.mjs';
 
 console.log( IS_ELECTRON_RENDERER );
 // => <boolean>
